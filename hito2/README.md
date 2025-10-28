@@ -26,8 +26,8 @@ Se modularizo el codigo:
 
 El trabajo para la entrega final (Hito 3) se centrará en la experimentación y optimización del modelo:
 
-* **Probar otros modelos:** Entrenar y comparar el rendimiento de clasificadores más robustos, como Random Forest y Support Vector Machines (SVM).
-* **Optimización:** Realizar ajuste de hiperparámetros (ej. `n_neighbors` en KNN o `n_estimators` en Random Forest) para mejorar la precisión.
+* **Probar otros modelos:** Entrenar y comparar el rendimiento de ptros clasificadores, como Random Forest y Support Vector Machines (SVM).
+* **Optimización:** Realizar ajuste de hiperparámetros (ej. `n_neighbors` en KNN ) para mejorar la precisión.
 * **Análisis de Resultados:** Realizar un análisis más profundo de la matriz de confusión para identificar qué géneros se confunden más y por qué.
 * **Comparacion de modelos:** Evaluar el rendimiento de los modelos pendientes de entrenar (Random Forest, SVM) y contrastar todos los modelos para ver cuál es el mejor.
 
