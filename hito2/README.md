@@ -13,8 +13,7 @@ Se implementó con éxito la metodología definida en el Hito 1, logrando un pro
 * **Verificación de Datos:** Se confirmó que el dataset está balanceado (100 canciones por género) y no contiene valores nulos.
 * **Análisis Exploratorio (EDA):** Se generó un gráfico de cajas (boxplot) para visualizar la distribución del Tempo por género, identificando diferencias clave entre categorías.
 * **Preprocesamiento:** Se implementó un pipeline de preprocesamiento que utiliza `StandardScaler` (para escalar las características) y `LabelEncoder` (para las etiquetas).
-* **Modelo Base:** Se entrenó y evaluó un modelo KNN base, logrando una precisión inicial de ~57%, validando que las características extraídas son relevantes.
-
+* **Modelo Base:** Se entrenó y evaluó un modelo KNN base, logrando una precisión inicial de ~57%.
 ## 2. Mejoras de Código
 
 Se modularizo el codigo:
@@ -38,7 +37,7 @@ Este registro contiene los archivos de audio del dataset GTZAN, utilizado para u
 
 Enlace del dataset usado:https://zenodo.org/uploads/17458653
 
-Observación: Esta versión del dataset difiere del original en un archivo. El audio jazz.00054 (del GTZAN original) estaba corrupto y no podía ser procesado. Fue reemplazado por una pista de 30 segundos titulada "Jazz Background Music", obtenida de Pixabay (https://pixabay.com/es/music/search/jazz/). Esta pista fue recortada para coincidir con la duración estándar de 30 segundos de las muestras del dataset GTZAN.
+Observación: Esta versión del dataset difiere del original en un archivo. El audio jazz.00054 (del GTZAN original) estaba corrupto y no podía ser procesado. Fue reemplazado por una pista  titulada "Jazz Background Music", obtenida de Pixabay (https://pixabay.com/es/music/search/jazz/). Esta pista fue recortada para coincidir con la duración estándar de 30 segundos de las muestras del dataset GTZAN.
 
 
 

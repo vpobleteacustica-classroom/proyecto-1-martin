@@ -8,7 +8,10 @@ import pandas as pd
 import os
 from sklearn.preprocessing import LabelEncoder, StandardScaler
 from sklearn.model_selection import train_test_split
+import matplotlib.pyplot as plt
+from sklearn.metrics import classification_report
 
+   
 
 def extraer_caracteristicas(dataset_path):
     
@@ -78,3 +81,7 @@ def preprocesar_datos(df):
     X_train, X_test, y_train, y_test = train_test_split(X_scaled, y, test_size=0.25, random_state=42)
     
     return X_train, X_test, y_train, y_test, scaler, encoder
+
+
+
+
